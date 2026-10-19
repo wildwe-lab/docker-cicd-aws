@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Credentials / keys
+*.pem
+*.key
+
+# Terraform crash files
+crash.log
+crash.*.logg

@@ -1,0 +1,5 @@
+services:
+  web:
+    image: docker-cicd-aws:v1
+    ports:
+      - "8080:80"
